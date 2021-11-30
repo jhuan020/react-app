@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+
+}
+
+.question-panel {
+  background-color: white;
+  height: 580px;
+  width: 800px;
+  border-radius: 15px;
+}
+
+.question-number{
+  color:grey;
+  font-size: 15px;
+}
+
+.question{
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.App-header {
+  background-image: url("http://localhost:3000/Honeycomb_Background.png"), linear-gradient(#6862f3, #8d4bfc);
+  background-repeat: repeat-x;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
