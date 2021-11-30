@@ -1,21 +1,39 @@
 .App {
   text-align: center;
+  background-image: url("http://localhost:3000/background.png"), linear-gradient(#6862f3, #8d4bfc);
+  background-repeat: repeat-x;
+  background-size:100% auto;
 }
 
 .App-logo {
+  width: 1200px;
+  margin:auto;
+  padding-bottom: 50px;
+}
 
+.App-logo img{
+  float: left;
+}
+
+.twitch-iframe{
+  position: relative;
+  top: -50px;
+  max-width: 100%;
 }
 
 .question-panel {
-  background-color: white;
-  height: 580px;
-  width: 800px;
+  width: 500px;
+  margin: 0px auto;
+  padding: 0px 30px 0px 30px;
+  max-width: 80%;
   border-radius: 15px;
+  background-color: white;
+  margin-bottom: 70px;
 }
 
 .question-number{
   color:grey;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 .question{
@@ -24,10 +42,20 @@
   text-align: center;
 }
 
+.answer-button{
+  color: grey;
+    width: 100%;
+    border: 2px solid #e3ecf7;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-align: left;    
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: white;
+}
 
-.App-header {
-  background-image: url("http://localhost:3000/Honeycomb_Background.png"), linear-gradient(#6862f3, #8d4bfc);
-  background-repeat: repeat-x;
+.App-body{
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
